@@ -24,3 +24,14 @@ a{
 label{
     color: white;
 }
+
+#p1{
+    column-rule-color: yellow;
+    size: 100;
+    color:red;
+}
+
+sub{
+    size: 1;
+    color: orange;
+}
