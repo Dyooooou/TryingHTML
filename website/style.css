@@ -1,32 +1,20 @@
-header{
-    background-color: grey;
-}
-
 body{
     background-color: black;
 }
 
-footer{
-    background-color: grey;
-}
-p{
-    color: white;
-}
-
-h1{
-    color: white;
-}
-
-a{
-    color: white;
-}
-
-label{
-    color: white;
+@font-face {
+    font-family: Oswald-Light;
+    src: url(fonts/Oswald-Light.ttf);
 }
 
 h1{
     color: red;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+p{
+    font-family: Oswald-Light;
+    size: 1.1em;
+    font-weight: bolder;
 }
 #p1{
     color:rgb(197, 69, 91);
