@@ -7,9 +7,15 @@ body{
     src: url(fonts/Oswald-Light.ttf);
 }
 
+
 h1{
     color: red;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    border-bottom: 2px solid white;
+    border-top: 2px solid white;
+    border-left: 2px solid white;
+    border-radius: 1px;
+    
 }
 p{
     font-family: Oswald-Light;
