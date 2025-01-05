@@ -1,5 +1,10 @@
 body{
     background-color: hsl(0, 1%, 13%);
+    border: 2px solid white;
+    display: flow-root;
+    text-align: center;
+
+
 }
 
 h1{
@@ -7,9 +12,50 @@ h1{
 }
 h2{
     color: blue;
+    margin-bottom: 30px;
 }
 
-#walogo{
+.odd{
+    font-size: 25px;
+    background-color: green;
+    border: none;
+    border-radius: 1000px;
+    padding: 10px 20px;
+    color: white;
+    cursor: pointer;
+    float: right; /* Tombol di kanan */
+    margin-left: 15px; /* Jarak antara tombol dan gambar */
+    margin-bottom: 20px;
+    
+}
+
+#walogo {
     height: 200px;
     width: 200px;
+    float: left; /* Gambar di kiri */
+    margin-bottom: 20px; /* Jarak bawah setelah float */
+}
+
+#wabutt{
+    font-size: 25px;
+    margin-left: 15px;
+    float: right;
+    padding: 10px 20px;
+}
+
+#fblogo{
+    height: 200px;
+    width: 200px;
+    float: right;
+    margin-left: 15px;
+}
+
+#even{
+    float: left;
+}
+
+body::after {
+    content: "";
+    display: table;
+    clear: both;
 }
