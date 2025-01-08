@@ -1,9 +1,26 @@
+@font-face {
+    font-family: Oswald-Light;
+    src: url(fonts/Oswald-Light.ttf);
+}
+
+
+
 body{
     background-color: hsl(87, 10%, 21%);
     margin-left: 25px;
     display: flow-root;
 
 
+}
+
+h1{
+    font-family: Oswald-Light;
+}
+h2{
+    font-family: Oswald-Light;
+}
+a{
+    font-family: Oswald-Light;
 }
 
 h1{
