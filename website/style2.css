@@ -12,6 +12,12 @@ img{
     height: 200px;
     width: 400px;
 }
+#hsrlogo{
+    float: right;
+    margin-right: 15px;
+    height: 200px;
+    width: 400px;
+}
 p{
     color: white;
     font-size: 25px;
