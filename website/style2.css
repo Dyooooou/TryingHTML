@@ -18,6 +18,15 @@ img{
     height: 200px;
     width: 400px;
 }
+#stel{
+    float: left;
+}
+#caelus{
+    float: left;
+}
+#welt{
+    float: left;
+}
 p{
     color: white;
     font-size: 25px;
